@@ -1,7 +1,7 @@
 variable "name_prefix" {
   type        = string
   description = "Prefix for queue names (letters, numbers, hyphens)."
-  default     = "cn-course"
+  default     = "cn-course-tf"
 }
 
 variable "max_receive_count_before_dlq" {
